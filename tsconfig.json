@@ -1,0 +1,10 @@
+{
+    "compilerOptions": {
+      "baseUrl": "./src",
+      "outDir": "./dist",
+      "sourceMap": false,
+      "declaration": false,
+      "module": "es2015",
+      "target": "es6"
+    }
+  }
