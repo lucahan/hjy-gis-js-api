@@ -8,6 +8,7 @@ export class WebMercator extends Projection{
 
     //投影后的平面坐标范围
     get bound(): Bound {
+        //人为定义-πr到+πr
         return new Bound(- Math.PI * WebMercator.R, Math.PI * WebMercator.R, Math.PI * WebMercator.R, -Math.PI * WebMercator.R);
     }
     //经纬度转平面坐标
